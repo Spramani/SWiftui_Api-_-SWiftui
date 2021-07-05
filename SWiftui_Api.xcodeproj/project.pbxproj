@@ -11,6 +11,8 @@
 		0494D4A12692BE86003F933C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494D4A02692BE86003F933C /* ContentView.swift */; };
 		0494D4A32692BE87003F933C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0494D4A22692BE87003F933C /* Assets.xcassets */; };
 		0494D4A62692BE87003F933C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0494D4A52692BE87003F933C /* Preview Assets.xcassets */; };
+		0494D4AE2692D88A003F933C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494D4AD2692D88A003F933C /* Data.swift */; };
+		0494D4B026930AA9003F933C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494D4AF26930AA9003F933C /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0494D4A22692BE87003F933C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0494D4A52692BE87003F933C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0494D4A72692BE87003F933C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0494D4AD2692D88A003F933C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0494D4AF26930AA9003F933C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				0494D49E2692BE86003F933C /* SWiftui_ApiApp.swift */,
+				0494D4AD2692D88A003F933C /* Data.swift */,
 				0494D4A02692BE86003F933C /* ContentView.swift */,
 				0494D4A22692BE87003F933C /* Assets.xcassets */,
 				0494D4A72692BE87003F933C /* Info.plist */,
 				0494D4A42692BE87003F933C /* Preview Content */,
+				0494D4AF26930AA9003F933C /* DetailsView.swift */,
 			);
 			path = SWiftui_Api;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0494D4A12692BE86003F933C /* ContentView.swift in Sources */,
+				0494D4B026930AA9003F933C /* DetailsView.swift in Sources */,
+				0494D4AE2692D88A003F933C /* Data.swift in Sources */,
 				0494D49F2692BE86003F933C /* SWiftui_ApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
